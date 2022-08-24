@@ -1,0 +1,58 @@
+body {
+    background-color: #2d2d2d;
+    font-family: Arial;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.upper-nav {
+    padding: 13px;
+    display: flex;
+    flex-direction:row ;
+    align-items: stretch;
+    gap: 10px;
+}
+
+.louis {
+    font-weight: bold;
+    font-size: 32px;
+}
+
+.button-links {
+    color: white;
+    font-size: 26px;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 12%;
+}
+
+.logo {
+    display: block;
+    margin-left: 27%;
+    margin-right: auto;
+}
+
+.google-button {
+    display: inline-block;
+    padding: 20px 20px;
+    padding-right: 120px;
+    padding-left: 120px;
+    border-radius: 7px;
+    margin-top: 10px;
+    background-color: #414141;
+    border: 1px solid gray;
+    transition: all 0.3s ease-in-out;
+}
+
+.google-button:hover {
+    padding: 30px 30px;
+    padding-right: 140px;
+    padding-left: 140px;
+    transition: all 0.3s ease-in-out;
+}
